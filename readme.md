@@ -17,5 +17,5 @@ Using of KiPEO is as easy as apple pie.
 
 ## Roadmap for project
 
-- [ ] Adding an CSS modify option to embeded true-type fonts to the e-book file.
-- [ ] Adding an CSS modify option to optimize how the book looks in Kindle
+- [ ] Adding a CSS modify option to embeded true-type fonts to the e-book file.
+- [ ] Adding a CSS modify option to optimize how the book looks in Kindle
