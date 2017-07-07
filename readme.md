@@ -11,6 +11,8 @@ Using of KiPEO is as easy as apple pie.
 3. Try to find `KiPEO` in the plugins menu or the toolbar
 4. Save Changes!
 
+![Demo](https://raw.githubusercontent.com/al1b/Calibre-KiPEO/master/KiPEO-demo.gif)
+
 ### Roadmap for project
 
 - [ ] Adding an CSS modify option to embeded true-type fonts to the e-book file.
