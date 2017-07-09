@@ -72,7 +72,7 @@ class KiPEOTool(Tool):
     def show_success(self):
         message = QMessageBox(self.gui)
         message.setIcon(QMessageBox.Information)
-        message.setText("KiPEO has reshaped your e-book.\r\nWould you like to see what we have changed?")
+        message.setText("KiPEO has compleletly reshaped your e-book.\r\n\r\nWould you like to see what we have changed?")
         message.setWindowTitle("KiPEO")
         message.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
         message.show()
@@ -82,6 +82,6 @@ class KiPEOTool(Tool):
             #Show the user what changes we have made, allowing her to
             #revert them if necessary
             self.boss.show_current_diff()
-            #Update the editor UI to take into account all the changes we
-            #have made
-            self.boss.apply_container_update_to_gui()
+        #Update the editor UI to take into account all the changes we
+        #have made
+        self.boss.apply_container_update_to_gui()
