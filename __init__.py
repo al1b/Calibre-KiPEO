@@ -22,4 +22,7 @@ class KiPEOPlugin(EditBookToolPlugin, InterfaceActionBase):
         container = get_container(fileName, tweak_mode=True)
 
         reshape_book(container, True)
+
+        container.commit()
+        
         print('done.')
