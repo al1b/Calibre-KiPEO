@@ -7,7 +7,7 @@ from reshaper import reshape_book
 
 class KiPEOPlugin(EditBookToolPlugin, InterfaceActionBase):
 
-    name                = 'Kindle Persian E-book Optimizer(KiPEO) plugin' # Name of the plugin
+    name                = 'KiPEO' # Name of the plugin
     description         = 'Optimize Perssian/Arabic E-books for Amazon Kindle'
     supported_platforms = ['windows', 'osx', 'linux'] # Platforms this plugin will run on
     author              = 'Ali Bahraminezhad.' # The author of this plugin
