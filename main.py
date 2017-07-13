@@ -12,6 +12,8 @@ from calibre.ebooks.oeb.polish.container import OEB_DOCS, OEB_STYLES, serialize
 from libpyarabicshaping import pyarabicshaping
 from io import open
 
+from reshaper import reshape_book
+
 class KiPEOTool(Tool):
     name = 'KiPEOTool'
     allowed_in_toolbar = True
@@ -50,22 +52,7 @@ class KiPEOTool(Tool):
 
         container = self.current_container
 
-        for name, media_type in container.mime_map.iteritems():
-            if media_type in OEB_DOCS:
-                # read file content
-                oed_doc_file_name = container.name_to_abspath(name)
-                oeb_doc_file = open(oed_doc_file_name, 'r', encoding='utf-8')
-                oeb_doc_content = oeb_doc_file.read()
-                oeb_doc_file.close()   
-
-                # reshape and write the file
-                oeb_doc_file = container.open(name, 'w')
-                oeb_doc_content = pyarabicshaping.arabic_shape(oeb_doc_content)
-                oeb_doc_file.write(oeb_doc_content)
-                oeb_doc_file.close()
-                
-                # flag files as dirty
-                container.dirty(name)
+        reshape_book(container)
         
         self.show_success()
     
