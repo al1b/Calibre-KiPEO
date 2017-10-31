@@ -1,4 +1,4 @@
-This plugin brought to you by me and it is dedicated to the ***Good***.
+This plugin is brought to you by me and it is dedicated to the ***Good***.
 
 # Kindle Persian E-book Optimizer - KiPEO
 
