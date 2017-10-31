@@ -1,3 +1,5 @@
+This plugin brought to you by me and it is dedicated to the ***Good***.
+
 # Kindle Persian E-book Optimizer - KiPEO
 
 KiPEO is a [Calibre](http://calibre-ebook.com/) plugin to optimize Persian and Arabic e-books for e-book readers such as Amazon kindle.
