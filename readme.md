@@ -11,7 +11,7 @@ This is a **very early version**, if you encounter any bugs or you have any sugg
 
 Using of KiPEO is as easy as apple pie.
 
-1. Download and Install KiPEO plugin in Calibre ( [Download latest version](https://github.com/al1b/Calibre-KiPEO/releases/download/0.0.1/Calibre-KiPEO.zip) )
+1. Download and Install KiPEO plugin in Calibre ( [Download latest version](https://github.com/al1b/Calibre-KiPEO/releases/download/0.0.2/Calibre-KiPEO_0.0.2.zip) )
 2. Edit your desire e-book
 3. Try to find `KiPEO` in the plugins menu or the toolbar
 4. Save Changes!
