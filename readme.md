@@ -16,6 +16,10 @@ Using of KiPEO is as easy as apple pie.
 3. Try to find `KiPEO` in the plugins menu or the toolbar
 4. Save Changes!
 
+CLI mode:
+```
+calibre-debug --run-plugin KiPEO filename
+```
 *You can download KiPEO from [releases](https://github.com/al1b/Calibre-KiPEO/releases/) page*
 
 ![Demo](https://raw.githubusercontent.com/al1b/Calibre-KiPEO/master/KiPEO-demo.gif)
