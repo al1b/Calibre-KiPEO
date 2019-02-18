@@ -1,6 +1,6 @@
 import re
 from PyQt5.Qt import QAction, QInputDialog, QMessageBox
-from cssutils.css import CSSRule
+from css_parser.css import CSSRule
 
 # The base class that all tools must inherit from
 from calibre.gui2.tweak_book.plugin import Tool
